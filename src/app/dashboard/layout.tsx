@@ -2,7 +2,7 @@ import { getServerSession } from 'next-auth'
 import { redirect } from 'next/navigation'
 import { authOptions } from '@/lib/auth'
 import DashboardNav from '@/components/layouts/DashboardNav'
-import { UserMenu } from '@/components/layouts/UserMenu'
+import { UserMenu } from '@/components/layouts/UserMenuSimple'
 
 export default async function DashboardLayout({
   children,
